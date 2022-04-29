@@ -13,7 +13,7 @@ export default function Index({ allPosts }) {
           <meta rel="og:description" content="Writings by Mehmet Altuğ Akgül" />
           <meta property="og:image" content={WRITING_OG_IMAGE_URL} />
           <meta name="description" content="Writings by Mehmet Altuğ Akgül" />
-
+          <link rel="icon" type="image/svg" href="/public/imzaa1.svg"></link>
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@altugakgul" />
           <meta name="twitter:title" content="Writings | Mehmet Altuğ Akgül" />
