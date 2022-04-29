@@ -5,7 +5,7 @@ import Logo from './../public/imzaa1.svg'
 import { useTheme } from 'next-themes'
 
 function Navbar({ navButtons }) {
-  const [mounted, setMounted] = useState(false)
+  const [mounted, setMounted] = useState(true)
   const { theme, setTheme } = useTheme()
 
   // When mounted on client, now we can show the UI
@@ -45,7 +45,7 @@ function Navbar({ navButtons }) {
             ))}
 
             {/* Dark Mode Toggle Button */}
-            <button
+            {/* <button
               aria-label="Toggle Dark Mode"
               type="button"
               className="w-10 h-10 p-3 ml-4 bg-gray-100 rounded-lg dark:bg-gray-50"
@@ -76,7 +76,7 @@ function Navbar({ navButtons }) {
                   )}
                 </svg>
               )}
-            </button>
+            </button> */}
           </div>
         </nav>
       </div>
