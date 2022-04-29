@@ -174,8 +174,12 @@ export default function Index() {
         </div>
         <TabsRender />
         <div>
-          <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-          <div className="elfsight-app-fdb01d1c-0a73-4d55-899e-6e81928ed31e"></div>
+          <iframe
+            width="100%"
+            height="1600"
+            src="https://rss.app/embed/v1/imageboard/oen7LOxLvrorOgyz"
+            frameBorder="0"
+          ></iframe>
         </div>
       </Layout>
     </>
