@@ -176,7 +176,7 @@ export default function Index() {
         <div>
           <iframe
             width="100%"
-            height="1600"
+            height="600"
             src="https://rss.app/embed/v1/imageboard/oen7LOxLvrorOgyz"
             frameBorder="0"
           ></iframe>
