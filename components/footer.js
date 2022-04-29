@@ -25,9 +25,11 @@ export default function Footer() {
     <div className="bottom-0 max-w-4xl mx-auto my-4 lazy-renderer">
       <footer>
         <SocialLinks />
-        <div className="flex justify-start text-sm font-normal text-inactive-gray">
-          © altug.dev
-        </div>
+        <a href="mailto:info@altug.dev" target="_blank" rel="noreferrer">
+          <div className="flex justify-start text-sm font-normal text-inactive-gray">
+            © altug.dev
+          </div>
+        </a>
       </footer>
     </div>
   )
