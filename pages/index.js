@@ -41,7 +41,9 @@ export default function Index() {
             name="description"
             content="Selected Work and Writings by Mehmet Altuğ Akgül"
           ></meta>
-          <title>Mehmet Altuğ Akgül - Electrical-Electronics and Software Engineer</title>
+          <title>
+            Mehmet Altuğ Akgül - Electrical-Electronics and Software Engineer
+          </title>
           <meta property="og:title" content="Mehmet Altuğ Akgül"></meta>
         </Head>
         {/* <Fade bottom> */}
@@ -175,7 +177,7 @@ export default function Index() {
           <iframe
             width="100%"
             height="2600"
-            src="https://rss.app/embed/v1/magazine/tsYnCZIrvMrkZaUf"
+            src="https://rss.app/embed/v1/magazine/t0R8uVsPFroB5NH5"
             frameBorder="0"
             overflow="hidden"
           ></iframe>
