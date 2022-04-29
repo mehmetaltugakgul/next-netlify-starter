@@ -172,12 +172,13 @@ export default function Index() {
         </div>
         <TabsRender />
         <div>
-          <rssapp-magazine id="tsYnCZIrvMrkZaUf"></rssapp-magazine>
-          <script
-            src="https://widget.rss.app/v1/magazine.js"
-            type="text/javascript"
-            async
-          ></script>
+          <iframe
+            width="100%"
+            height="2600"
+            src="https://rss.app/embed/v1/magazine/tsYnCZIrvMrkZaUf"
+            frameBorder="0"
+            overflow="hidden"
+          ></iframe>
         </div>
       </Layout>
     </>
