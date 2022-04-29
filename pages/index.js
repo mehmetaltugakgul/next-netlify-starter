@@ -41,7 +41,7 @@ export default function Index() {
             name="description"
             content="Selected Work and Writings by Mehmet Altuğ Akgül"
           ></meta>
-          <title>Mehmet Altuğ Akgül</title>
+          <title>Mehmet Altuğ Akgül - Electrical-Electronics and Software Engineer</title>
           <meta property="og:title" content="Mehmet Altuğ Akgül"></meta>
         </Head>
         {/* <Fade bottom> */}

@@ -11,7 +11,10 @@ export default function Index() {
     <>
       <Layout>
         <Head>
-          <title>About</title>
+          <title>
+            About - Mehmet Altuğ Akgül - Electrical-Electronics and Software
+            Engineer
+          </title>
           <meta rel="og:description" content="About Me | Mehmet Altuğ Akgül" />
           <meta name="description" content="About Me | Mehmet Altuğ Akgül" />
         </Head>
