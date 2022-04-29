@@ -65,8 +65,7 @@ const Tabs = ({ color }) => {
                 href="#link3"
                 role="tablist"
               >
-                <i className="fas fa-briefcase text-base mr-1"></i> Special
-                Interests
+                <i className="fas fa-briefcase text-base mr-1"></i>Interests
               </a>
             </li>
           </ul>
