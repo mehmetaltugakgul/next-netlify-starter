@@ -22,7 +22,7 @@ export default function Footer() {
   }
 
   return (
-    <div className="bottom-0 max-w-4xl mx-auto my-36 lazy-renderer">
+    <div className="bottom-0 max-w-4xl mx-auto my-4 lazy-renderer">
       <footer>
         <SocialLinks />
         <div className="flex justify-start text-sm font-normal text-inactive-gray">
