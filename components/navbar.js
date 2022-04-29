@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import NavButton from '@/components/navbutton'
 import Link from 'next/link'
 import Logo from './../public/imzaa1.svg'
-import DarkLogo from './../public/imzawhite.svg'
 import { useTheme } from 'next-themes'
 
 function Navbar({ navButtons }) {
