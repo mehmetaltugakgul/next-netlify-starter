@@ -35,11 +35,7 @@ export default function Index() {
             property="twitter:description"
             content="Selected Work and Writings by Altuğ"
           ></meta>
-          <link
-            rel="icon"
-            type="image/png"
-            href="/public/imzaa1white.png"
-          ></link>
+          <link rel="icon" type="image/png" href="/imzaa1white.png"></link>
           <meta property="twitter:image" content={HOME_OG_IMAGE_URL}></meta>
 
           <meta property="og:image" content={HOME_OG_IMAGE_URL}></meta>
