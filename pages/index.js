@@ -5,6 +5,7 @@ import { useTheme } from 'next-themes'
 import { HOME_OG_IMAGE_URL } from '@/lib/constants'
 import Layout from '@/components/layout'
 import TabsRender from '@/components/TabsRender'
+import Tradingview from '@/components/Tradingview'
 export default function Index() {
   const [mounted, setMounted] = useState(false)
   const { theme } = useTheme()
@@ -170,6 +171,14 @@ export default function Index() {
           </Link> */}
         </div>
         <TabsRender />
+        <div>
+          <rssapp-magazine id="tsYnCZIrvMrkZaUf"></rssapp-magazine>
+          <script
+            src="https://widget.rss.app/v1/magazine.js"
+            type="text/javascript"
+            async
+          ></script>
+        </div>
       </Layout>
     </>
   )
